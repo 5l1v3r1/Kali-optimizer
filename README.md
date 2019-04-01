@@ -12,10 +12,10 @@
    tweaking performance and in the last update your Kali with official/default sources of Kali
 
 # Requirements
-1. This software is specifically written for Kali (all versions)
+1. Kali (all versions)
 
 # Advantages
-1. This software won't produce bad results, this is specifically written with care
+1. Performance upgrade
 
 # Installation
 1. Clone git, then enter: chmod u+x kali_optimizer.sh, then run: ./kali_optimizer.sh, that's it!
