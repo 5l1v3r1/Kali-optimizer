@@ -54,6 +54,6 @@ sudo apt clean
 sudo apt purge $OLDCONF
 sudo apt purge $OLDKERNELS
 sudo apt update
+echo -e $YELLOW"[ + ] Finished optimizing "$ENDCOLOR
+echo -e $YELLOW"[ + ] Woah! There is no BAD MOJO now! "$ENDCOLOR
 echo -e 
-echo -e $YELLOW"[ + ] Finished optimizing kali. "$ENDCOLOR
-echo -e $YELLOW"[ + ] Your kali is cleaned now there is no BAD MOJO! "$ENDCOLOR
