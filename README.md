@@ -12,7 +12,7 @@
    tweaking performance and in the last update your Kali with official/default sources of Kali
 
 <div align="center">
-    <img src="https://pasteboard.co/I86brJB.png width="400px"</img> 
+    <img src="https://i.postimg.cc/rs4B0Lxd/Kali-fix1.png width="400px"</img> 
 </div>
 
 # Requirements
