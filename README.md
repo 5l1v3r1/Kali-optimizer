@@ -14,6 +14,11 @@
 <div align="center">
     <img src="https://i.postimg.cc/rs4B0Lxd/Kali-fix1.png width="400px"</img> 
 </div>
+                                                                       
+                                                                       
+<div align="center">
+    <img src="https://i.postimg.cc/fRq8NrS1/Kali-fix2.png width="400px"</img> 
+</div>
 
 # Requirements
 1. Kali (all versions)
