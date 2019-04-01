@@ -16,9 +16,12 @@ sed -i -- 's/X-GNOME-Autostart-enabled=true/X-GNOME-Autostart-enabled=false/g' /
 sed -i -- 's/X-GNOME-Autostart-enabled=true/X-GNOME-Autostart-enabled=false/g' /etc/xdg/autostart/tracker-store.desktop 
  
 echo -e $YELLOW"[ + ] Clearing all the bad things"$ENDCOLOR
+sudo rm /etc/apt/sources.list.d/*
 sudo apt clean
 sudo apt purge $OLDCONF
 sudo apt purge $OLDKERNELS
+sudo apt update
 rm -rf /home/*/.local/share/Trash/*/** &> /dev/null
 rm -rf /root/.local/share/Trash/*/** &> /dev/null
-echo -e $YELLOW"Done."$ENDCOLOR
+echo -e $YELLOW"[ + ] Done"$ENDCOLOR
+echo -e $YELLOW"----- Your kali is cleaned, now there is no BAD MOJO!."$ENDCOLOR
