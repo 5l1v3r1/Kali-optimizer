@@ -1,10 +1,15 @@
 # F.A.Q
 
 # Kali optimizer
-1. Kali, is a linux distribution for blackhats, security information gurus and whitehats but sometimes it get halts because of bad configuration or indexing issues, running this software will fix all kinds of issues
+1. Kali is a linux distribution for blackhats, security information gurus and whitehats
+2. Working on daily basis, kali processes lot of comands/application causing indexing issue and sources list get modify by     
+   different or buggy or malware softwares
+3. This all cause performance lacking and halting/screen freezez in Kali 
+4. This is where Kali optimizer comes
 
 # What this software do
-1. This will fix any screen halting issues, clear trash, fix duplicates, fix bad sources, automatically make adjustments and update your kali for better performance, all this in only in few seconds
+1. This will fix any screen halting issues, clear trash, fix duplicates, fix bad sources, automatically making adjustments and 
+   tweaking performance and in the last update your Kali with official/default sources of Kali
 
 # Requirements
 1. This software is specifically written for Kali (all versions)
