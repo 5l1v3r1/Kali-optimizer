@@ -11,6 +11,10 @@
 1. This will fix any screen halting issues, clear trash, fix duplicates, fix bad sources, automatically making adjustments and 
    tweaking performance and in the last update your Kali with official/default sources of Kali
 
+<div align="center">
+    <img src="https://cdn1.imggmi.com/uploads/2019/4/1/f7369a5e2c8f4c2c2f757178a440d3a2-full.png" width="400px"</img> 
+</div>
+
 # Requirements
 1. Kali (all versions)
 
