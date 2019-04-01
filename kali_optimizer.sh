@@ -19,8 +19,6 @@
 #  8. It can be used to take measures achieve protection.                                 #
 # *************************************************************************************** #
 
-YELLOW="\033[1;33m"
-ENDCOLOR="\033[0m"
 OLDCONF=$(dpkg -l|grep "^rc"|awk '{print $2}')
 CURKERNEL=$(uname -r|sed 's/-*[a-z]//g'|sed 's/-386//g')
 LINUXPKG="linux-(image|headers|debian-modules|restricted-modules)"
@@ -43,5 +41,6 @@ sudo apt purge $OLDKERNELS
 sudo apt update
 rm -rf /home/*/.local/share/Trash/*/** &> /dev/null
 rm -rf /root/.local/share/Trash/*/** &> /dev/null
-echo -e $YELLOW"[ + ] Done"$ENDCOLOR
-echo -e $YELLOW"----- Your kali is cleaned, now there is no BAD MOJO!."$ENDCOLOR
+
+echo -e $YELLOW"[ + ] Finished optimizing kali. "$ENDCOLOR
+echo -e $YELLOW"----- Your kali is cleaned now and free from BAD MOJO!."$ENDCOLOR
