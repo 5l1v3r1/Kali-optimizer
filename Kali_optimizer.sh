@@ -32,16 +32,22 @@ echo -e "y" | sudo tracker daemon -k
 echo -e "y" | sudo tracker reset -r
 sed -i -- 's/X-GNOME-Autostart-enabled=true/X-GNOME-Autostart-enabled=false/g' /etc/xdg/autostart/tracker-miner-fs.desktop
 sed -i -- 's/X-GNOME-Autostart-enabled=true/X-GNOME-Autostart-enabled=false/g' /etc/xdg/autostart/tracker-store.desktop 
+echo -e $YELLOW"[ + ] Done "$ENDCOLOR
 echo -e 
+
 echo -e $YELLOW"[ + ] Clearing cache and trash "$ENDCOLOR
 sudo rm -r /etc/apt/sources.list.d/*
 rm -rf /home/*/.local/share/Trash/*/** &> /dev/null
 rm -rf /root/.local/share/Trash/*/** &> /dev/null
+echo -e $YELLOW"[ + ] Done "$ENDCOLOR
 echo -e 
+
 echo -e $YELLOW"[ + ] Writing proper sources list "$ENDCOLOR
 echo -e "y" | cp /etc/apt/sources.list /etc/apt/sources.list.backup
 echo -e "y" | cp /root/Downloads/Kali_optimizer/sources.list /etc/apt/
+echo -e $YELLOW"[ + ] Done "$ENDCOLOR
 echo -e 
+
 echo -e $YELLOW"[ + ] Updating kali "$ENDCOLOR
 echo -e "y" | sudo apt autoremove
 sudo apt clean
