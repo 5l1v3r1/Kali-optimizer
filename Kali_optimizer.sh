@@ -40,7 +40,7 @@ rm -rf /root/.local/share/Trash/*/** &> /dev/null
 echo -e 
 echo -e $YELLOW"[ + ] Writing proper sources list "$ENDCOLOR
 echo -e "y" | cp /etc/apt/sources.list /etc/apt/sources.list.backup
-echo -e "y" | cp /root/Downloads/kali_optimizer/sources.list /etc/apt/
+echo -e "y" | cp /root/Downloads/Kali_optimizer/sources.list /etc/apt/
 echo -e 
 echo -e $YELLOW"[ + ] Updating kali "$ENDCOLOR
 echo -e "y" | sudo apt autoremove
