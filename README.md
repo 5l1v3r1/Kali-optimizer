@@ -6,6 +6,15 @@
 # What this software do
 1. This will fix any screen halting issues, clear trash, fix duplicates, fix bad sources, automatically make adjustments and update your kali for better performance, all this in only in few seconds
 
+# Requirements
+1. This software is specifically written for Kali (all versions)
+
+# Advantages
+1. This software won't produce bad results, this is specifically written with care
+
+# Installation
+1. Clone git, then enter: chmod u+x kali_optimizer.sh, then run: ./kali_optimizer.sh, that's it!
+
 # License
 EULA
 
