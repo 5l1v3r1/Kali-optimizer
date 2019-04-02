@@ -44,7 +44,7 @@ echo -e
 
 echo -e $YELLOW"[ + ] Writing proper sources list "$ENDCOLOR
 echo -e "y" | cp /etc/apt/sources.list /etc/apt/sources.list.backup
-echo -e "y" | cp /root/Downloads/Kali_optimizer/sources.list /etc/apt/
+echo -e "y" | cp /root/Downloads/Kali-optimizer/sources.list /etc/apt/
 echo -e $YELLOW"[ + ] Done "$ENDCOLOR
 echo -e 
 
